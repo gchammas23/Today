@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C505C5602828371F006225F9 /* UIColor+Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = C505C55F2828371F006225F9 /* UIColor+Today.swift */; };
+		C505C56228283738006225F9 /* Date+Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = C505C56128283738006225F9 /* Date+Today.swift */; };
+		C505C56528283A32006225F9 /* RemonderListViewController+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C505C56428283A32006225F9 /* RemonderListViewController+DataSource.swift */; };
 		C538B56E281DCB770030D529 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C538B56D281DCB770030D529 /* AppDelegate.swift */; };
 		C538B570281DCB770030D529 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C538B56F281DCB770030D529 /* SceneDelegate.swift */; };
 		C538B572281DCB770030D529 /* ReminderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C538B571281DCB770030D529 /* ReminderListViewController.swift */; };
@@ -37,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C505C55F2828371F006225F9 /* UIColor+Today.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Today.swift"; sourceTree = "<group>"; };
+		C505C56128283738006225F9 /* Date+Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Today.swift"; sourceTree = "<group>"; };
+		C505C56428283A32006225F9 /* RemonderListViewController+DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RemonderListViewController+DataSource.swift"; sourceTree = "<group>"; };
 		C538B56A281DCB770030D529 /* Today.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Today.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C538B56D281DCB770030D529 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C538B56F281DCB770030D529 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +84,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C505C563282839DC006225F9 /* ListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C538B571281DCB770030D529 /* ReminderListViewController.swift */,
+				C505C56428283A32006225F9 /* RemonderListViewController+DataSource.swift */,
+			);
+			path = ListViewController;
+			sourceTree = "<group>";
+		};
 		C538B561281DCB770030D529 = {
 			isa = PBXGroup;
 			children = (
@@ -104,7 +119,7 @@
 				C538B59D281DCE390030D529 /* Models */,
 				C538B56D281DCB770030D529 /* AppDelegate.swift */,
 				C538B56F281DCB770030D529 /* SceneDelegate.swift */,
-				C538B571281DCB770030D529 /* ReminderListViewController.swift */,
+				C505C563282839DC006225F9 /* ListViewController */,
 				C538B573281DCB770030D529 /* Main.storyboard */,
 				C538B576281DCB780030D529 /* Assets.xcassets */,
 				C538B578281DCB780030D529 /* LaunchScreen.storyboard */,
@@ -133,7 +148,9 @@
 		C538B59D281DCE390030D529 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				C505C55F2828371F006225F9 /* UIColor+Today.swift */,
 				C538B59E281DCE550030D529 /* Reminder.swift */,
+				C505C56128283738006225F9 /* Date+Today.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -271,8 +288,11 @@
 			files = (
 				C538B572281DCB770030D529 /* ReminderListViewController.swift in Sources */,
 				C538B56E281DCB770030D529 /* AppDelegate.swift in Sources */,
+				C505C5602828371F006225F9 /* UIColor+Today.swift in Sources */,
+				C505C56228283738006225F9 /* Date+Today.swift in Sources */,
 				C538B570281DCB770030D529 /* SceneDelegate.swift in Sources */,
 				C538B59F281DCE550030D529 /* Reminder.swift in Sources */,
+				C505C56528283A32006225F9 /* RemonderListViewController+DataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
